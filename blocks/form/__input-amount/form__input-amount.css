@@ -1,0 +1,34 @@
+.form__input-amount {
+  width: 154px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 2px solid #96949E;
+  border-radius: 22px;
+  text-align: center;
+  font-family: 'TT Firs Neue', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #96949E;
+  -moz-appearance: textfield;
+}
+
+.form__input-amount:hover,
+.form__input-amount:focus {
+  -moz-appearance: number-input;
+}
+
+.form__input-amount::-webkit-outer-spin-button,
+.form__input-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+@media all and (min-width: 1024px) {
+  .form__input-amount {
+    width: 169px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,10 @@
+.header__location-icon {
+  background-image: url(../../../images/header__location.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  padding: 0;
+}

@@ -1,0 +1,14 @@
+.opened-menu {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 88px;
+  height: calc(100% - 88px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FCFAF7;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s linear, visibility 0.3s;
+}

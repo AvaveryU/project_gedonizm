@@ -1,0 +1,10 @@
+.header__place {
+  margin: 0;
+  font-family: 'TT Firs Neue', Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  min-width: 153px;
+  text-align: center;
+  box-sizing: border-box;
+}

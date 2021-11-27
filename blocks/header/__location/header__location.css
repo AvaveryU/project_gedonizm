@@ -1,0 +1,17 @@
+.header__location {
+  display: none;
+  align-items: center;
+  padding: 12px 24px 12px 26px;
+  box-sizing: border-box;
+  margin-right: 119px;
+  background-color: #FFD400;
+  border-style: none;
+  cursor: pointer;
+  transition: opasity .4s;
+}
+
+@media all and (min-width: 1024px) {
+  .header__location {
+    display: flex;
+  }
+}

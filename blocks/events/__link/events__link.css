@@ -1,0 +1,19 @@
+.events__link {
+  text-decoration: none;
+  color: #3B3748;
+  display: inline-block;
+  border: 2px solid #3B3748;
+  border-radius: 22px;
+  padding: 10px 18px;
+  transition: opacity .3s linear;
+}
+
+.events__link:hover {
+  opacity: .7;
+}
+
+@media all and (min-width: 768px) {
+  .events__link {
+    padding: 10px 22px;
+  }
+}

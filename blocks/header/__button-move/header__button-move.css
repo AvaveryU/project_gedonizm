@@ -1,0 +1,16 @@
+.header__button-move {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px 13px 20px;
+  box-sizing: border-box;
+  background-color: #FFD400;
+  border-style: none;
+  cursor: pointer;
+  transition: opasity .4s;
+}
+
+@media all and (min-width: 768px) {
+  .header__button-move {
+    padding: 14px 24px 13px 24px;
+  }
+}

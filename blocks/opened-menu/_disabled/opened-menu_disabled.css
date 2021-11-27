@@ -1,0 +1,5 @@
+.opened-menu_disabled {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s linear, visibility 0.3s;
+}

@@ -1,0 +1,20 @@
+.header__button-to-support {
+  background-image: url(../../../images/header__button-to-support.svg);
+  background-position: center;
+  background-size: 100%;
+  min-width: 153px;
+  height: 48px;
+  background-color: #FFD400;
+  border-style: none;
+  cursor: pointer;
+  transition: opasity .4s;
+  display: none;
+  padding: 0;
+}
+
+@media all and (min-width: 768px) {
+  .header__button-to-support {
+    display: flex;
+    margin-left: 8px;
+  }
+}

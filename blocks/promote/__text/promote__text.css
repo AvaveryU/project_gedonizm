@@ -1,0 +1,29 @@
+.promote__text {
+  margin: 0;
+  padding: 0 20px 20px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 125%;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:768px) {
+  .promote__text {
+    color: #3B3748;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .promote__text {
+    font-size: 18px;
+    line-height: 133%;
+    padding: 0 40px 32px 0;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .promote__text {
+    padding-right: 280px;
+  }
+}

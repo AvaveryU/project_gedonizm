@@ -1,0 +1,9 @@
+.header__link {
+  text-decoration: none;
+  transition: opasity .2s linear;
+  color: #3B3748;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+}

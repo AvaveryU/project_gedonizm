@@ -1,0 +1,15 @@
+.cards__content {
+  max-width: 320px;
+  min-height: 196px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 0 24px 24px;
+  display: grid;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 1024px) {
+  .cards__content {
+    min-height: 208px;
+  }
+}

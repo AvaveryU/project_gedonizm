@@ -1,0 +1,10 @@
+.footer__illustration {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .footer__illustration {
+    display: inline;
+    width: 193px;
+    height: 193px;
+  }
+}

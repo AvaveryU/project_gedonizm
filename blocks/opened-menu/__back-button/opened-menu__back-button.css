@@ -1,0 +1,15 @@
+.opened-menu__back-button {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3b3748;
+  background-color: #fcfaf7;
+  border: none;
+  text-align: left;
+}

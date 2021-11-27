@@ -1,0 +1,26 @@
+.photo-gallery {
+  margin: 40px auto;
+  min-height: 420px;
+  max-width: 320px;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+@media screen and (min-width: 660px) {
+  .photo-gallery {
+    max-width: 660px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .photo-gallery {
+    max-width: 1280px;
+    max-height: 1290px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .photo-gallery {
+    margin: 0 auto;
+    padding: 80px 60px 0 40px;
+    max-width: 1440px;
+  }
+}

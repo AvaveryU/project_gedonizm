@@ -1,0 +1,8 @@
+.opened-menu__navi {
+  margin: 0;
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #96949e;
+  list-style-type: none;
+}

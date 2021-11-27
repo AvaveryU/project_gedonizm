@@ -1,0 +1,9 @@
+.header__logo {
+  margin-right: 76px;
+}
+
+@media all and (min-width: 1440px) {
+  .header__logo {
+    margin-right: 40px;
+  }
+}

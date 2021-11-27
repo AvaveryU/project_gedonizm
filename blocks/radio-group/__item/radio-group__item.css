@@ -1,0 +1,11 @@
+.radio-group__item:nth-of-type(5n) {
+  margin: 0;
+}
+.radio-group__item {
+  border-radius: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #96949e;
+  margin: 0 12px 0 0;
+}

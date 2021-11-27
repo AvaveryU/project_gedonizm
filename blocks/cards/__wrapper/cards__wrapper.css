@@ -1,0 +1,9 @@
+.cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__wrapper:last-child {
+  margin-bottom: 0;
+  align-self: end;
+}

@@ -1,0 +1,14 @@
+.logo-gallery {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
+  padding: 80px 40px 80px 40px;
+  /*background-color: antiquewhite;*/
+}
+
+@media all and (max-width: 1439px) {
+  .logo-gallery {
+    padding: 40px 20px 40px 20px;
+    background-color: #EBE9ED;
+  }
+}

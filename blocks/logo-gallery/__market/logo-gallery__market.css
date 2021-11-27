@@ -1,0 +1,17 @@
+.logo-gallery__market {
+  display: inline-block;
+  margin-left: 49px;
+  margin-right: 25px;
+  min-width: 120px;
+  height: 170px;
+  background-image: url("../../../images/Рынок.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media all and (max-width: 1439px) {
+  .logo-gallery__market {
+    background-image: url("../../../images/Рынок_black.png");
+  }
+}

@@ -1,0 +1,19 @@
+.about__heading {
+  margin: 0;
+  padding: 0;
+  max-width: 420px;
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+
+  color: #3b3748;
+}
+
+@media all and (max-width: 879px) {
+  .about__heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

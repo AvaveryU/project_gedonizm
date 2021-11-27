@@ -1,0 +1,17 @@
+.header {
+  margin: 0 auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 360px;
+  max-width: 1440px;
+  background-color: #FFD400;
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    padding: 20px 40px;
+  }
+}

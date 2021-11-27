@@ -1,0 +1,23 @@
+.events__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 auto;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+@media all and (min-width: 768px) {
+  .events__tags {
+    max-width: 768px;
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .events__tags {
+    max-width: 840px;
+    padding: 0 40px;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer__link-org {
+  font-weight: 400;
+  color: #7100ff;
+  transition: opacity 0.5s linear;
+}
+.footer__link-org:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/*удалить иконку рядом с нужными ссылками*/
+.footer__link-org.footer__link::after {
+  background-image: none;
+}
+@media screen and (min-width: 1240px) {
+  .footer__link-org {
+    font-weight: 500;
+  }
+}

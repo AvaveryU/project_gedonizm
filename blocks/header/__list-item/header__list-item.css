@@ -1,0 +1,10 @@
+.header__list-item {
+  margin-right: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list-item:last-of-type {
+  margin-right: 0;
+}

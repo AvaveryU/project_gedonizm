@@ -1,0 +1,14 @@
+.lead__logo {
+  width: 210px;
+  height: 152px;
+  object-fit: cover;
+  margin-top: 175px;
+}
+
+@media all and (min-width: 768px) {
+  .lead__logo {
+    width: 315px;
+    height: 228px;
+    margin-top: 266px;
+  }
+}

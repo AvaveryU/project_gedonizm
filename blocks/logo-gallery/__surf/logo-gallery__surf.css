@@ -1,0 +1,20 @@
+.logo-gallery__surf {
+  display: inline-block;
+  margin-left: 24px;
+  min-width: 120px;
+  height: 170px;
+  background-image: url("../../../images/surf.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.logo-gallery__surf:first-child {
+  margin-left: 0;
+}
+
+@media all and (max-width: 1439px) {
+  .logo-gallery__surf {
+    background-image: url("../../../images/surf_black.png");
+  }
+}

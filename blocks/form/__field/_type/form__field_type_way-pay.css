@@ -1,0 +1,5 @@
+.form__field_type_way-pay {
+  display: grid;
+  margin-bottom: 28px;
+  row-gap: 10px;
+}

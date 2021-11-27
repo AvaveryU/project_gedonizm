@@ -1,0 +1,6 @@
+.events__tag-item {
+  display: flex;
+  border: 2px solid #3B3748;
+  border-radius: 22px;
+  padding: 10px 18px;
+}

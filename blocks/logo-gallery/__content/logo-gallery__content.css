@@ -1,0 +1,11 @@
+.logo-gallery__content {
+  margin: 0;
+  margin-top: 12px;
+  padding: 0;
+  max-height: 170px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  list-style-type: none;
+}

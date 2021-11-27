@@ -1,0 +1,21 @@
+.promote__link {
+  border: 2px solid #FFFFFF;
+  border-radius: 22px;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 20px;
+  width: 136px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width:768px) {
+  .promote__link {
+    border: 2px solid #3B3748;
+  }
+}
+@media screen and (min-width:1024px) {
+  .promote__link {
+    margin-left: 0;
+    width: 155px;
+  }
+}

@@ -1,0 +1,20 @@
+.form {
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.12);
+  padding: 0 20px;
+  max-height: calc(100vh - (68px + 40px + 88px + 84px));
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.form::-webkit-scrollbar {
+  width: 0;
+}
+
+@media all and (min-width: 1024px) {
+  .form {
+    max-width: 612px;
+    padding: 0 40px;
+  }
+}

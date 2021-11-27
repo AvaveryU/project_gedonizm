@@ -1,0 +1,11 @@
+.header__row-links {
+  display: none;
+  margin-right: 131px;
+  min-width: 438px;
+}
+
+@media all and (min-width: 1440px) {
+  .header__row-links {
+    display: flex;
+  }
+}

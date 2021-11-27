@@ -1,0 +1,16 @@
+.logo-gallery__heading {
+  margin: 0;
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  color: #3b3748;
+}
+
+@media all and (max-width: 1439px) {
+  .logo-gallery__heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

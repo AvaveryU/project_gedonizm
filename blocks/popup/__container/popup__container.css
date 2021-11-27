@@ -1,0 +1,17 @@
+.popup__container {
+  max-width: 360px;
+  position: relative;
+  background-color: #FCFAF7;
+  max-height: calc(100vh - 68px - 40px);
+  align-self: end;
+  border-radius: 24px 24px 0 0;
+}
+
+@media all and (min-width: 1024px) {
+  .popup__container {
+    max-width: 612px;
+    align-self: center;
+    border-radius: 24px;
+    padding-bottom: 40px;
+  }
+}

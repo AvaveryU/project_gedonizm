@@ -1,0 +1,8 @@
+.cards__link {
+  text-decoration: none;
+  transition: opacity .3s linear;
+}
+
+.cards__link:hover {
+  opacity: .7;
+}

@@ -1,0 +1,34 @@
+.events__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #3B3748;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+}
+
+@media all and (min-width: 768px) {
+  .events__title {
+    max-width: 768px;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .events__title {
+    max-width: 840px;
+    padding-left: 40px;
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .events__title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}

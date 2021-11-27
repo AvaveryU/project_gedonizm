@@ -1,0 +1,19 @@
+.header__menu {
+  background-image: url(../../../images/header__menu.svg);
+  background-position: center;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  background-color: #FFD400;
+  border-style: none;
+  padding: 0;
+  cursor: pointer;
+  transition: opasity .4s;
+  margin-left: 16px;
+}
+
+@media all and (min-width: 1024px) {
+  .header__menu {
+    display: none;
+  }
+}

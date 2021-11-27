@@ -1,0 +1,16 @@
+.header__button-like {
+  background-image: url(../../../images/header__button-like.svg);
+  background-position: center;
+  background-size: 100%;
+  width: 20px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+@media all and (min-width: 1440px) {
+  .header__button-like {
+    margin-right: 8px;
+    width: 24px;
+    height: 21px;
+  }
+}

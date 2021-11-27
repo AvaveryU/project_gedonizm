@@ -1,0 +1,16 @@
+.logo-gallery__gallery-sp {
+  display: inline-block;
+  margin-left: 49px;
+  min-width: 120px;
+  height: 170px;
+  background-image: url("../../../images/Галерея.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media all and (max-width: 1439px) {
+  .logo-gallery__gallery-sp {
+    background-image: url("../../../images/Галерея_black.png");
+  }
+}

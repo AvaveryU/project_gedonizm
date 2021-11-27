@@ -1,0 +1,10 @@
+.footer__list {
+  list-style: none;
+  margin: 12px auto 0;
+  padding: 0;
+}
+@media screen and (min-width: 1024px) {
+  .footer__list {
+    margin-top: 20px;
+  }
+}

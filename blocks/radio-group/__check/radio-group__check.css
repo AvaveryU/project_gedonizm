@@ -1,0 +1,16 @@
+.radio-group__check {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  border: 0;
+  box-sizing: border-box;
+  background: #96949E;
+}
+.radio-group__check:checked + .radio-group__item {
+  background: #3B3748;
+  transition: background-color 0.3s;
+}

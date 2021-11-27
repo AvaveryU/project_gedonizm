@@ -1,0 +1,19 @@
+.form__title {
+  font-family: 'TT Firs Neue', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #3B3748;
+  margin: 0 0 32px;
+  padding: 0 20px;
+}
+
+@media all and (min-width: 1024px) {
+  .form__title {
+    font-size: 48px;
+    line-height: 52px;
+    padding: 40px 40px 0;
+    margin: 0 0 20px;
+  }
+}

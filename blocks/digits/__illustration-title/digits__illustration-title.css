@@ -1,0 +1,27 @@
+.digits__illustration-title {
+  margin: 0;
+  padding-top: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 112%;
+  color: #3B3748;
+}
+
+@media screen and (min-width: 1055px) {
+  .digits__illustration-title {
+    position: absolute;
+    bottom: 176px;
+    right: 420px;
+    font-size: 48px;
+    line-height: 108%;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1055px) {
+  .digits__illustration-title:last-of-type {
+    top: 504px;
+    left: 280px;
+  }
+}

@@ -1,0 +1,13 @@
+.popup__home {
+  width: 44px;
+  height: 4px;
+  background: #96949E;
+  border-radius: 100px;
+  margin: 16px auto;
+}
+
+@media all and (min-width: 1024px) {
+  .popup__home {
+    display: none;
+  }
+}

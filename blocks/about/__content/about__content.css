@@ -1,0 +1,14 @@
+.about__content {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 880px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 879px) {
+  .about__content {
+    flex-direction: column;
+  }
+}

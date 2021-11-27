@@ -1,0 +1,15 @@
+.footer__blocks {
+  color: #3b3748;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__blocks {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 1127px;
+  }
+}

@@ -1,0 +1,10 @@
+.footer__social {
+  margin: 12px 16px 0 0;
+  padding: 0;
+}
+@media screen and (min-width: 1024px) {
+  .footer__social {
+    margin-right: 24px;
+    margin-top: 20px;
+  }
+}

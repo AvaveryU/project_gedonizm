@@ -1,0 +1,31 @@
+.promote__button {
+  width: 176px;
+  height: 44px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 22px;
+  margin: 0 0 40px 20px;
+  background-color: #F40934;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+  .promote__button {
+    background-color: #FFD400;
+    border: 2px solid #3B3748;
+    color: #3B3748;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .promote__button {
+    font-size: 18px;
+    line-height: 133%;
+    margin: 0 0 80px 0;
+  }
+}

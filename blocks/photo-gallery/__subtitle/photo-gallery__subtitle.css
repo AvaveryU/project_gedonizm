@@ -1,0 +1,25 @@
+.photo-gallery__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3b3748;
+  margin: 12px auto 0;
+  text-align: left;
+}
+@media screen and (min-width: 980px) {
+  .photo-gallery__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 24px auto 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .photo-gallery__subtitle {
+    max-width: 970px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .photo-gallery__subtitle {
+    max-width: 1440px;
+  }
+}

@@ -1,0 +1,26 @@
+.form__button {
+  width: 154px;
+  height: 44px;
+  border: 2px solid #3B3748;
+  border-radius: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 12px;
+  font-family: 'TT Firs Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+@media all and (min-width: 1024px) {
+  .form__button {
+    width: 169px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

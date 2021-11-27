@@ -1,0 +1,21 @@
+.form__input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input-radio:checked + .form__button {
+  background-color: #7100FF;
+  color: #FCFAF7;
+}
+
+.form__input-radio:checked + .form__way-pay::before {
+  border: 2px solid #7100FF;
+}
+
+.form__input-radio:checked + .form__way-pay::after {
+  border: 2px solid #7100FF;
+  background-color: #7100FF;
+}

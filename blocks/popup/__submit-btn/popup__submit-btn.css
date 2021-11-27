@@ -1,0 +1,26 @@
+.popup__submit-btn {
+  width: 320px;
+  height: 44px;
+  border: 0;
+  border-radius: 22px;
+  color: #FCFAF7;
+  background-color: #7100FF;
+  margin: 0 20px 20px;
+  font-family: 'TT Firs Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+@media all and (min-width: 1024px) {
+  .popup__submit-btn {
+    width: 532px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 40px;
+  }
+}

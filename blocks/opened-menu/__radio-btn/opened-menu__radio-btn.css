@@ -1,0 +1,15 @@
+.opened-menu__radio-btn {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.opened-menu__radio-btn:checked + .opened-menu__pseudo-radio {
+  background-image: url("../../../images/check.svg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,46 @@
+.cards {
+  margin: 0 0 48px;
+  padding: 40px 20px 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #7100FF #FCFAF7;
+}
+
+.cards::-webkit-scrollbar {
+  height: 4px;
+}
+
+.cards::-webkit-scrollbar-track {
+  background: #FCFAF7;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background-color: #7100FF;
+  border-radius: 100px;
+}
+
+.cards::-webkit-scrollbar-track-piece:end {
+  margin-right: 20px;
+}
+
+.cards::-webkit-scrollbar-track-piece:start {
+  margin-left: 20px;
+}
+
+@media all and (min-width: 1024px) {
+  .cards {
+    margin-bottom: 32px;
+    padding: 40px 40px 24px;
+  }
+
+  .cards::-webkit-scrollbar-track-piece:end {
+    margin-right: 40px;
+  }
+
+  .cards::-webkit-scrollbar-track-piece:start {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,29 @@
+.digits__picture-hidden {
+  display: none;
+  background-image: url("/images/digits-img3.png");
+  background-repeat: no-repeat;
+  width: 233px;
+  height: 149px;
+}
+
+.digits__picture-hidden:nth-of-type(2n) {
+  background-image: url("/images/digits-img4.png");
+  width: 90px;
+  height: 146px;
+}
+
+
+@media screen and (min-width: 1276px) {
+  .digits__picture-hidden {
+    display: inline;
+    position: absolute;
+    top: 302px;
+    right: 505px;
+  }
+}
+@media screen and (min-width: 1276px) {
+  .digits__picture-hidden:nth-of-type(2n) {
+    top: 749px;
+    left: 590px;
+  }
+}

@@ -1,0 +1,28 @@
+.digits__image {
+  display: flex;
+  height: 320px;
+  width: 320px;
+  align-items: center;
+  background-image: url("/images/digits-img10.png");
+  background-repeat: no-repeat;
+}
+
+.digits__image:last-of-type {
+  background-image: url("/images/digits-img20.png");
+}
+
+@media screen and (min-width: 1055px) {
+  .digits__image {
+    position: absolute;
+    background-image:url("/images/digits-img30.png");
+    top: 412px;
+    right: 40px;
+    width: 480px;
+    height: 480px;
+  }
+  .digits__image:last-of-type {
+    background-image: url("/images/digits-img40.png");
+    top: 172px;
+    left: 40px;
+  }
+}
