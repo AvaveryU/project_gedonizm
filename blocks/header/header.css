@@ -5,9 +5,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 360px;
+  min-width: 320px;
   max-width: 1440px;
   background-color: #FFD400;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: transform 1s;
 }
 
 @media all and (min-width: 1024px) {

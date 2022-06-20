@@ -6,6 +6,7 @@ const closeFormBtn = popup.querySelector('.popup__close-btn');
 const formFieldAmount = popup.querySelector('.form__field_type_amount');
 const formFieldAmountRadioButtons = formFieldAmount.querySelectorAll('.form__input-radio');
 const inputAmount = popup.querySelector('.form__input-amount');
+const header = document.querySelector('.header');
 
 function openPopup (elem) {
   elem.classList.add('popup_is-opened');
@@ -26,6 +27,22 @@ closeFormBtn.addEventListener('click', () => closePopup(popup));
 formPayment.addEventListener('submit', (evt) => {
   evt.preventDefault();
   closePopup(popup);
+});
+
+let prevScroll = window.scrollY;
+let curScroll;
+
+window.addEventListener('scroll', () => {
+  curScroll = window.scrollY;
+  const headerHidden = header.classList.contains('header_hidden');
+
+  if (curScroll > prevScroll && !headerHidden) {
+    header.classList.add('header_hidden');
+  } else if (curScroll < prevScroll && headerHidden) {
+    header.classList.remove('header_hidden');
+  }
+
+  prevScroll = curScroll;
 });
 
 inputAmount.addEventListener('keyup', (evt) => {
@@ -55,7 +72,7 @@ locationBtn.addEventListener('click', () => {
 })
 
 //Кнопка выбор города
-const citySelectBtn = document.querySelector('.opened-menu__select-button');
+const citySelectBtn = document.querySelector('.opened-menu__city-selector');
 citySelectBtn.addEventListener('click', () => {
   citySelect.classList.remove('opened-menu__city-select_disabled');
 })
@@ -77,6 +94,13 @@ for (let i=0; i<cityRadioBtns.length; i++)
     targetCity.textContent = evt.target.value;
   }));
 }
+
+const donateBtn = document.querySelector('.opened-menu_donate-button');
+donateBtn.addEventListener('click', () => {
+  openedMenu.classList.toggle('opened-menu_disabled');
+  citySelect.classList.toggle('opened-menu_disabled');
+  openPopup(popup);
+})
 /*функционал секции photo-gallery*/
 /*добавление класса к карточке для переключения фото в секции photo-gallery*/
 function checkPhoto(photo) {

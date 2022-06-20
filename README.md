@@ -12,7 +12,8 @@
 
 Проект ***Гедонизм-фест*** выполнен в рамках четвёртого месяца обучения в **Яндекс.Практикум** согласно макету в [Figma](https://www.figma.com/file/W9BwfhAlID2YzCkv51FOP1/Nochlezhka-web%2B?node-id=0%3A1).
 
-ссылка на [GitHub-Pages]( https://avaveryu.github.io/project_gedonizm/index.html)
+---
+### ссылка на [GitHub-Pages]( https://avaveryu.github.io/project_gedonizm/index.html)
 ---
 ### Цель проекта
 ---

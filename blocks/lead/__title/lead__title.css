@@ -8,6 +8,10 @@
   align-self: center;
   text-decoration: none;
   color: #3B3748;
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media all and (min-width: 768px) {

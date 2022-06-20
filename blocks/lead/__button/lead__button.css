@@ -1,9 +1,10 @@
 .lead_button {
-  background-image: url(../../../images/lead_button.svg);
+  background-color: #7100ff;
+  border-radius: 50%;
+  background-image: url("../../../images/lead_button.svg");
   width: 44px;
   height: 44px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  padding-top: 8px;
+  margin-top: 8px;
 }

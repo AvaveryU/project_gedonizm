@@ -67,6 +67,7 @@
 @import url(../blocks/header/__button-title/header__button-title.css);
 @import url(../blocks/header/__button-to-support/header__button-to-support.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/_hidden/header_hidden.css);
 /*footer*/
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__blocks/footer__blocks.css');
@@ -109,7 +110,6 @@
 @import url('../blocks/form/__link/form__link.css');
 /*lead*/
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/lead/__picture/lead__picture.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__logo/lead__logo.css);
 @import url(../blocks/lead/__button/lead__button.css);

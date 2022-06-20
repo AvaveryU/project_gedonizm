@@ -1,14 +1,18 @@
 .lead__logo {
-  width: 210px;
-  height: 152px;
-  object-fit: cover;
-  margin-top: 175px;
+  width: 58%;
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
+@media all and (min-width: 425px) {
+  .lead__logo {
+    width: 40%;
+  }
+}
 @media all and (min-width: 768px) {
   .lead__logo {
-    width: 315px;
-    height: 228px;
-    margin-top: 266px;
+    width: 22%;
+    top: 35%;
   }
 }
